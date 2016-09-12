@@ -75,8 +75,10 @@ html {
     position: absolute;
 }
 .page1 img:nth-child(1){
+    width: 4.58rem;
+    height: 2.3rem;
     left: 50%;
-    margin-left: -1.8rem;
+    margin-left: -2.29rem;
     bottom: 1.4rem
 }
 .page1 .box1{
@@ -85,18 +87,18 @@ html {
     height: 1.5rem;
     left: 50%;
     margin-left: -.5rem;
-    bottom: 4.4rem;
+    bottom: 50%;
 }
 .page1 .box1 img:nth-child(1){
     position: absolute;
-    left:1.8rem;
+    left:2.15rem;
     bottom :-.01rem;
     width: 1.5rem;
     height: 1.5rem;
 }
 .page1 .box1 img:nth-child(2){
     position: absolute;
-    left:0.14rem;
+    left:0;
     bottom :0.15rem;
     width: 1.2rem;
     height: 1.2rem;
@@ -130,7 +132,7 @@ html {
 .page2 .box{
     position: absolute;
     left:0;
-    bottom: -0.85rem;
+    bottom: 4%;
     margin: 25% auto;
     text-align: center;
 }
@@ -156,6 +158,74 @@ html {
     position: relative;
     background: url("../img/8.png") no-repeat center;
     background-size: cover;
+}
+.page3 h2{
+    position: absolute;
+    width: 0.75rem;
+    height: 1.5rem;
+    line-height: 0.75rem;
+    text-align: center;
+    left: 0.4rem;
+    top:0.8rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    font-family: STXingkai;
+}
+#page3 h2{
+    -webkit-animation: zoomIn 1s linear .9s 1 both;
+    animation:zoomIn  1s linear .9s 1 both;
+}
+.page3 span{
+    position: absolute;
+    width: 5.2rem;
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+    border-radius: 20px;
+    background-color: silver;
+    margin-top: .2rem;
+    opacity: 0.7;
+}
+.page3 .sp1{
+    left: 15%;
+    bottom: 6.5rem;
+}
+.page3 .sp2{
+    left: 15%;
+    bottom: 5.5rem;
+}
+.page3 .sp3{
+    left: 15%;
+    bottom: 4.5rem;
+}
+.page3 .sp4{
+    left: 15%;
+    bottom: 3.5rem;
+}
+.page3 .sp5{
+    left: 15%;
+    bottom: 2.5rem;
+}
+#page3 .sp1{
+    -webkit-animation: zoomIn 1s linear .9s 1 both;
+    animation:zoomIn  1s linear .9s 1 both;
+}
+#page3 .sp2{
+    -webkit-animation: zoomIn 1s linear 1.8s 1 both;
+    animation:zoomIn  1s linear 1.8s 1 both;
+}
+#page3 .sp3{
+    -webkit-animation: zoomIn 1s linear 2.7s 1 both;
+    animation:zoomIn  1s linear 2.7s 1 both;
+}
+#page3 .sp4{
+    -webkit-animation: zoomIn 1s linear 3.6s 1 both;
+    animation:zoomIn  1s linear 3.6s 1 both;
+}
+#page3 .sp5{
+    -webkit-animation: zoomIn 1s linear 4.5s 1 both;
+    animation:zoomIn  1s linear 4.5s 1 both;
 }
 .page4{
     position: relative;
@@ -197,13 +267,13 @@ html {
 }
 .page4 span{
     display: block;
-    width: 2.6rem;
+    width: 3rem;
     height: 1.5rem;
     line-height: 1.5rem;
     text-align: center;
     position: absolute;
     left: 50%;
-    margin-left: -1rem;
+    margin-left: -1.5rem;
     font-family:STLiti;
     font-size: 18px;
 }
@@ -221,7 +291,6 @@ html {
 #page4 .s2{
     -webkit-animation: rollIn 1s linear 1.6s 1 both;
     animation:rollIn  1s linear 1.6s 1 both;
-}
 }
 
 @-webkit-keyframes bounce {
